@@ -13,7 +13,7 @@ It allows you to anonymize the network traffic of any Linux command-line applica
 
 ---
 
-# ⚙️ How It Works
+### ⚙️ How It Works
 
 `toralize` hooks the `connect()` system call using `LD_PRELOAD`.  
 When an application tries to connect to an IP/port, `toralize`:
@@ -24,7 +24,7 @@ When an application tries to connect to an IP/port, `toralize`:
 4. Forwards the application’s traffic through Tor.
 
 
-# Example Ouput
+### Example Ouput
 ```bash
 $ toralize curl http://google.com
 
