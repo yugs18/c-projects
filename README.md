@@ -5,7 +5,7 @@
     Usage: cli-calculator <number1> <operator> <number2> <operator> <number3> ...
 
 
-## 🧅 Toralize — Tunnel Any Linux App Through Tor (SOCKS4)
+## 🧅 Toralize
 
 **Toralize** is a lightweight LD_PRELOAD-based tool that intercepts system network calls and redirects them through the **Tor network** using the **SOCKS4 protocol**.
 
